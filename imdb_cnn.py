@@ -28,27 +28,28 @@ class MyCNNSentiment:
     def __init__(self,path=path,max_features=100000,maxlen=100,batch_size=32,embedding_dims=100,
             nb_filter=250,filter_length=3,hidden_dims=250,nb_epoch=3,dropout_ratio=0.25,
             subsample_length=1,dense=1,border_mode="valid"):
-    # '''Initialize parameters
+        '''Initialize parameters
 
-    # :type path: String
-    # :param path: The path to the dataset (here IMDB)
-    # :type max_features: int
-    # :param max_features: The number of maximum feature maps
-    # :type maxlen: int
-    # :param maxlen: The maximum length of sentences from dataset
-    # :type batch_size: int
-    # :param batch_size: The number of batch size
-    # :type embeddings_dims: int
-    # :param embeddings_dims: The dimension of word2vec vector
-    # :type dropout_ratio: float32
-    # :param dropout_ratio: The subsample ratio to avoid overfitting
-    # :type border_mode: String
-    # :param border_mode: The type pf border detection
+        :type path: String
+        :param path: The path to the dataset (here IMDB)
+        :type max_features: int
+        :param max_features: The number of maximum feature maps
+        :type maxlen: int
+        :param maxlen: The maximum length of sentences from dataset
+        :type batch_size: int
+        :param batch_size: The number of batch size
+        :type embeddings_dims: int
+        :param embeddings_dims: The dimension of word2vec vector
+        :type dropout_ratio: float32
+        :param dropout_ratio: The subsample ratio to avoid overfitting
+        :type border_mode: String
+        :param border_mode: The type pf border detection
     
-    # '''
-    ##################
-    # INITIALIZATION #
-    ##################
+        '''
+
+        ##################
+        # INITIALIZATION #
+        ##################
         self.path = path
         self.max_features = max_features
         self.maxlen = maxlen

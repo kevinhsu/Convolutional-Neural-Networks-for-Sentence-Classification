@@ -5,7 +5,7 @@ Data is in ./data folder:
 
 Prerequisite
 ------------------------------------------------------
-The system is buit on Python 2.7
+The system is built on Python 2.7
 
 Other packages you need to install before running the system:
 - numpy
